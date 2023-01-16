@@ -6,11 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class HelloController {
-    @GetMapping("/hello")
-
-    public String hello(@RequestParam(name ="name") String name, Model model){
-        model.addAttribute("name",name);
-        return "hell1o";
+public class IndexController {
+    @GetMapping("/")// “/”默认访问根目录
+    public String index(){
+        return "index";
     }
 }
