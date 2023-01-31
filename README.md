@@ -1,6 +1,4 @@
-+1Q A*--+`189
-
-##资料
+##资料  
 [Spring 文档](https://spring.io/guides)  
 [Github OAuth](ttps://docs.github.com/zh/developers/apps/building-oauth-apps/creating-an-oauth-app)  
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)  
